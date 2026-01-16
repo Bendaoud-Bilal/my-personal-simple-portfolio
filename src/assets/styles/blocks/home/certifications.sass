@@ -1,0 +1,47 @@
+.certifications
+    margin-top: 64px
+    margin-bottom: 64px
+
+    &__content
+        margin-top: 32px
+
+    &__list
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
+        gap: 24px
+
+    &__item
+        padding: 20px
+        border: 1px solid var(--gray)
+        background: rgba(255, 255, 255, 0.02)
+        animation: fadeInUp 0.5s ease both
+        transition: all 0.3s ease
+
+        @for $i from 1 through 10
+            &:nth-child(#{$i})
+                animation-delay: #{$i * 0.1}s
+
+        &:hover
+            border-color: var(--primary)
+            transform: translateY(-3px)
+
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        flex-wrap: wrap
+        gap: 8px
+        margin-bottom: 8px
+
+    &__name
+        font-size: 1rem
+        color: var(--white)
+        margin: 0
+
+    &__date
+        color: var(--primary)
+        font-size: 0.85rem
+
+    &__issuer
+        color: var(--gray)
+        font-size: 0.9rem

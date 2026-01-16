@@ -1,0 +1,228 @@
+{
+    "header": {
+        "home": "accueil",
+        "projects": "projets",
+        "about": "à-propos",
+        "contacts": "contacts",
+        "experience": "expérience",
+        "education": "formation",
+        "certifications": "certifications"
+    },
+    "footer": {
+        "description": "Étudiant en informatique spécialisé en cybersécurité basé en Algérie",
+        "copyright": "Copyright 2025. Créé par Bilal Bendaoud",
+        "media": "Médias"
+    },
+    "skills": {
+        "language": "Langages",
+        "database": "Bases de données",
+        "other": "Autres",
+        "tool": "Outils",
+        "framework": "Frameworks",
+        "professional": "Compétences Professionnelles"
+    },
+    "projects": {
+        "al-interviewer": {
+            "name": "Al-Interviewer",
+            "description": "Système basé sur l'IA pour simuler des entretiens d'embauche utilisant NLP et machine learning"
+        },
+        "network-management": {
+            "name": "Interface de Gestion des Équipements Réseau",
+            "description": "Application desktop utilisant Python et PyQt5 pour gérer et surveiller les équipements réseau"
+        },
+        "dz-tabib": {
+            "name": "DZ-Tabib",
+            "description": "Plateforme web full-stack pour connecter les patients avec les médecins en Algérie"
+        },
+        "showcase-station": {
+            "name": "Showcase Station",
+            "description": "Plateforme de portfolio numérique pour les freelancers pour présenter leurs compétences et projets"
+        },
+        "portfolio": {
+            "name": "Ce Portfolio",
+            "description": "Mon site web portfolio personnel"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Bilal Bendaoud est un étudiant en <span>Informatique</span> & Développeur <span>Backend</span>",
+                "description": "Spécialisé en cybersécurité avec expertise en développement FastAPI et Django",
+                "button": "Me Contacter",
+                "status": "Ouvert aux nouvelles opportunités"
+            },
+            "quote": {
+                "text": "La sécurité n'est pas un produit, mais un processus",
+                "author": "Bruce Schneier"
+            },
+            "projects": {
+                "title": "projets",
+                "button": "Voir tout"
+            },
+            "skills": {
+                "title": "compétences"
+            },
+            "about": {
+                "title": "à-propos",
+                "description": [
+                    "Je suis étudiant en Master 1 Informatique spécialisé en Cybersécurité à l'École Supérieure en Sciences et Technologies de l'Informatique (ESTIN) à Bejaia, Algérie.",
+                    "J'ai effectué des stages chez Sonatrach, Enafor DZ, Algérie Télécom et SETRAM, construisant une solide expérience professionnelle. Compétent en développement backend avec FastAPI et Django."
+                ],
+                "button": "Voir tout"
+            },
+            "contacts": {
+                "title": "contacts",
+                "text": "Je suis intéressé par les opportunités de stage et d'emploi en Cybersécurité et Développement Backend. N'hésitez pas à me contacter",
+                "media": "Écrivez-moi ici",
+                "donate": "Soutenez-moi ici"
+            },
+            "experience": {
+                "title": "expérience-professionnelle",
+                "list": [
+                    {
+                        "company": "ENAFOR",
+                        "position": "Stagiaire",
+                        "period": "27/12/2025 - 31/12/2025",
+                        "location": "Hassi Messaoud, Ouargla, Algérie",
+                        "description": "Entreprise Nationale de Forage - Département IT"
+                    },
+                    {
+                        "company": "Sonatrach",
+                        "position": "Stagiaire",
+                        "period": "16/12/2025 - 23/12/2025",
+                        "location": "Haoud Berkaoui, Ouargla, Algérie",
+                        "description": "Centre IT - Secteur de l'énergie"
+                    },
+                    {
+                        "company": "SETRAM",
+                        "position": "Stagiaire",
+                        "period": "23/03/2025 - 03/04/2025",
+                        "location": "Ouargla, Algérie",
+                        "description": "Département de maintenance des bâtiments"
+                    },
+                    {
+                        "company": "Algérie Télécom",
+                        "position": "Stagiaire",
+                        "period": "22/12/2024 - 02/01/2025",
+                        "location": "Centre EMRC, Ouargla, Algérie",
+                        "description": "Centre RMS et CA/TS Ouargla"
+                    },
+                    {
+                        "company": "Algérie Télécom",
+                        "position": "Stagiaire",
+                        "period": "23/03/2024 - 04/04/2024",
+                        "location": "Ouargla, Algérie",
+                        "description": "Centre IT régional"
+                    },
+                    {
+                        "company": "Librairie AL-BADR",
+                        "position": "Vendeur",
+                        "period": "2021 - 2024",
+                        "location": "Ouargla, Algérie",
+                        "description": "Ventes et service client"
+                    }
+                ]
+            },
+            "education": {
+                "title": "formation",
+                "list": [
+                    {
+                        "institution": "ESTIN - École Supérieure en Sciences et Technologies de l'Informatique",
+                        "degree": "Ingénieur en Informatique spécialité Cybersécurité",
+                        "period": "09/2024 - Actuel",
+                        "location": "Bejaia, Algérie",
+                        "grade": "Deuxième cycle - Niveau EQF 6"
+                    },
+                    {
+                        "institution": "Université Kasdi Merbah",
+                        "degree": "Ingénieur en Informatique (Tronc Commun)",
+                        "period": "09/2022 - 06/2024",
+                        "location": "Ouargla, Algérie",
+                        "grade": "15.43/20 - Très Bien"
+                    },
+                    {
+                        "institution": "Lycée El-Arbi Kuider",
+                        "degree": "Baccalauréat - Sciences Naturelles",
+                        "period": "09/2019 - 07/2022",
+                        "location": "Ouargla, Algérie",
+                        "grade": "15.96/20 - Très Bien"
+                    }
+                ]
+            },
+            "certifications": {
+                "title": "certifications",
+                "list": [
+                    {
+                        "name": "SQL Associate (Cours Fondamentaux)",
+                        "issuer": "DataCamp",
+                        "date": "06/11/2024"
+                    },
+                    {
+                        "name": "Cours de Développement FastAPI",
+                        "issuer": "CodeSignal",
+                        "date": "08/12/2024"
+                    },
+                    {
+                        "name": "Formation aux Compétences du 21ème Siècle",
+                        "issuer": "World Learning Algeria & HSBC",
+                        "date": "01/05/2023"
+                    },
+                    {
+                        "name": "Bases des Services Électroniques",
+                        "issuer": "Albalasmeh Business Company LTD",
+                        "date": "25/07/2024"
+                    }
+                ]
+            },
+            "languages": {
+                "title": "langues-parlées",
+                "list": [
+                    {
+                        "language": "Arabe",
+                        "level": "Langue maternelle"
+                    },
+                    {
+                        "language": "Français",
+                        "level": "B2 - Utilisateur indépendant"
+                    },
+                    {
+                        "language": "Anglais",
+                        "level": "B2 - Utilisateur indépendant"
+                    }
+                ]
+            }
+        },
+        "projects": {
+            "description": "Tous mes projets",
+            "decent": "correct",
+            "small": "petit",
+            "inProgress": "en cours"
+        },
+        "about": {
+            "description": "Qui suis-je",
+            "about": {
+                "description": [
+                    "Je suis étudiant en Master 1 Informatique spécialisé en Cybersécurité à l'École Supérieure en Sciences et Technologies de l'Informatique (ESTIN) à Bejaia, avec des études préalables à l'Université Kasdi Merbah de Ouargla.",
+                    "J'ai effectué des stages chez Sonatrach, Enafor DZ, Algérie Télécom et SETRAM, construisant une solide expérience professionnelle.",
+                    "Certifié en SQL (DataCamp), FastAPI (CodeSignal), Compétences du 21ème Siècle (World Learning & HSBC) et Bases des Services Électroniques (Albalasmeh Business Company).",
+                    "Compétent en développement backend avec FastAPI et Django. J'ai développé et contribué à plusieurs projets dont une application desktop PyQt5, la plateforme web DZ-Tabib et le système Showcase Station."
+                ]
+            },
+            "skills": {
+                "title": "compétences"
+            },
+            "facts": {
+                "title": "infos-personnelles",
+                "list": [
+                    "Né: 15/06/2004 à Ouargla, Algérie",
+                    "Nationalité: Algérienne",
+                    "Actuellement étudiant à ESTIN, Bejaia",
+                    "Passionné par la Cybersécurité et le Développement Backend"
+                ]
+            }
+        },
+        "contacts": {
+            "description": "Comment me contacter"
+        }
+    }
+}

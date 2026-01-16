@@ -6,11 +6,21 @@
     flex-grow: 1
     flex-shrink: 1
     flex-basis: 0
+    animation: fadeInUp 0.5s ease both
+    transition: all 0.3s ease
+
+    &:hover
+        border-color: var(--primary)
+        transform: translateY(-3px)
 
     &__name
         font-weight: 600
         padding: 8px
         border-bottom: 1px solid var(--gray)
+        transition: color 0.3s ease
+
+    &:hover &__name
+        color: var(--primary)
 
     &__list
         padding: 8px

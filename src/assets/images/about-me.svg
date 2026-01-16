@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#282C33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e2127;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C778DD;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#9b59b6;stop-opacity:0.3" />
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="350" height="350" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.08" stroke="#ABB2BF" stroke-width="1">
+    <line x1="0" y1="35" x2="350" y2="35"/>
+    <line x1="0" y1="70" x2="350" y2="70"/>
+    <line x1="0" y1="280" x2="350" y2="280"/>
+    <line x1="0" y1="315" x2="350" y2="315"/>
+    <line x1="35" y1="0" x2="35" y2="350"/>
+    <line x1="315" y1="0" x2="315" y2="350"/>
+  </g>
+  
+  <!-- Decorative corners -->
+  <rect x="15" y="15" width="40" height="40" fill="none" stroke="#C778DD" stroke-width="2" opacity="0.5"/>
+  <rect x="295" y="15" width="40" height="40" fill="none" stroke="#ABB2BF" stroke-width="1" opacity="0.3"/>
+  <rect x="15" y="295" width="40" height="40" fill="none" stroke="#ABB2BF" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Main circular avatar area -->
+  <circle cx="175" cy="150" r="85" fill="url(#purpleGrad)" stroke="#C778DD" stroke-width="2"/>
+  
+  <!-- Person silhouette -->
+  <g fill="#ABB2BF" opacity="0.65">
+    <circle cx="175" cy="125" r="35"/>
+    <ellipse cx="175" cy="200" rx="48" ry="28"/>
+  </g>
+  
+  <!-- Security/Tech icons -->
+  <g filter="url(#softGlow)" fill="#C778DD" opacity="0.6">
+    <!-- Lock icon -->
+    <rect x="55" y="250" width="24" height="18" rx="3" fill="none" stroke="#C778DD" stroke-width="2"/>
+    <rect x="60" y="242" width="14" height="12" rx="7" fill="none" stroke="#C778DD" stroke-width="2"/>
+    
+    <!-- Terminal icon -->
+    <rect x="270" y="245" width="28" height="22" rx="2" fill="none" stroke="#C778DD" stroke-width="2"/>
+    <text x="275" y="261" font-family="Fira Code, monospace" font-size="10" fill="#C778DD">&gt;_</text>
+  </g>
+  
+  <!-- About info text -->
+  <text x="175" y="285" font-family="Fira Code, monospace" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">About Me</text>
+  <text x="175" y="310" font-family="Fira Code, monospace" font-size="11" fill="#ABB2BF" text-anchor="middle">Computer Science Student</text>
+  <text x="175" y="328" font-family="Fira Code, monospace" font-size="10" fill="#C778DD" text-anchor="middle">ESTIN, Bejaia</text>
+  
+  <!-- Decorative dots -->
+  <g fill="#C778DD" opacity="0.4">
+    <circle cx="85" cy="175" r="3"/>
+    <circle cx="95" cy="175" r="3"/>
+    <circle cx="105" cy="175" r="3"/>
+    <circle cx="245" cy="175" r="3"/>
+    <circle cx="255" cy="175" r="3"/>
+    <circle cx="265" cy="175" r="3"/>
+  </g>
+</svg>

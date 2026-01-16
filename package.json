@@ -1,10 +1,10 @@
 {
-  "name": "portfolio",
-  "version": "1.2.0",
+  "name": "bilal-bendaoud-portfolio",
+  "version": "1.0.0",
   "main": "src/app/index.js",
   "author": {
-    "name": "Elias",
-    "url": "https://EliasDevis.github.io"
+    "name": "Bilal Bendaoud",
+    "email": "bendaoudbilal717@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
@@ -18,8 +18,7 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.11.1",
-    "node-sass": "^8.0.0"
+    "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
     "build": "webpack",

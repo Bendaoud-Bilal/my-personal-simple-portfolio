@@ -6,8 +6,8 @@ export default {
         if (name === "emailRaw") 
             return target.email
         
-        if (name === "discord") return `https://${websites.discord}${target.discord.id}`
-        if (name === "discordTag") return target.discord.tag
+        if (name === "githubRaw")
+            return target.github
 
         return `${name === "email" ? "" : "https://"}${websites[name] ?? ""}${target[name]}`
     }

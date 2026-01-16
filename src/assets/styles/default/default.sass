@@ -7,6 +7,32 @@ body, html
     gap: 112px
     flex-direction: column
 
+// Arabic RTL support
+html[dir="rtl"]
+    font-family: "Amiri", "Fira Code", serif
+    
+    body
+        font-family: "Amiri", "Fira Code", serif
+
+html[dir="rtl"] .header__links,
+html[dir="rtl"] .header__inner
+    flex-direction: row-reverse
+
+html[dir="rtl"] .media-header
+    left: auto
+    right: 0
+
+html[dir="rtl"] .footer__inner
+    flex-direction: row-reverse
+
+html[dir="rtl"] .hero
+    text-align: right
+
+html[dir="rtl"] .experience__item,
+html[dir="rtl"] .education__item,
+html[dir="rtl"] .certifications__item
+    text-align: right
+
 .dots
     width: 10vmin
     height: auto

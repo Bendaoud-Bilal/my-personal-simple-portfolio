@@ -2,6 +2,7 @@
 @import default/variables
 @import default/reset
 @import default/default
+@import default/animations
 
 @import components/header
 @import components/footer
@@ -15,4 +16,4 @@
 
 :root
     @each $key, $value in $colors
-        --#{$key}: hsl(#{$value})
+        --#{"" + $key}: hsl(#{$value})

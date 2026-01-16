@@ -22,7 +22,7 @@ module.exports = {
             template: "src/templates/index.ejs",
             filename: "index.html",
             excludeChunks: ["spaHandler"],
-            title: "Elias Portfolio",
+            title: "Bilal Bendaoud Portfolio",
             'meta': {
                 'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
                 'theme-color': '#C778DD',
@@ -53,7 +53,20 @@ module.exports = {
         rules: [
             {
                 test: /\.(sass)$/,
-                use: [plugins.css.loader, "css-loader", "sass-loader"],
+                use: [
+                    plugins.css.loader,
+                    "css-loader",
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            api: "modern",
+                            sassOptions: {
+                                silenceDeprecations: ["import", "global-builtin", "color-functions"],
+                                quietDeps: true,
+                            },
+                        },
+                    },
+                ],
                 include: [
                     join(__dirname, "src/assets/styles")
                 ]

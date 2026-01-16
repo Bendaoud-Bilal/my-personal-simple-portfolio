@@ -11,6 +11,7 @@
         width: 12vmin
         left: 70%
         z-index: 4
+        animation: fadeIn 1s ease 0.8s both
 
     &__logo
         position: absolute
@@ -18,19 +19,25 @@
         top: 10%
         z-index: 1
         aspect-ratio: 1
+        animation: fadeIn 1s ease 0.6s both
     
     &__image
         position: relative
         z-index: 2
         border-bottom: 1px solid var(--primary)
+        animation: fadeInUp 0.8s ease 0.4s both
 
     &__content, &__illustrations
         flex: 1 1 0
+
+    &__content
+        animation: fadeInLeft 0.8s ease both
 
     &__illustrations
         position: relative
         display: flex
         flex-direction: column
+        animation: fadeInRight 0.8s ease 0.2s both
 
     &__title 
         min-width: 300px
@@ -58,6 +65,7 @@
         position: relative
         top: -1px
         z-index: 5
+        animation: fadeIn 1s ease 1s both
         gap: 8px
         font-weight: 500
 
