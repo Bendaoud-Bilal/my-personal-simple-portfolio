@@ -33,6 +33,54 @@ export default (t) => {
                         </div>
                         
                         <div class="contact-item">
+                            <img src="/images/icons/facebook.svg" alt="Facebook" class="contact-item__icon">
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Facebook</h3>
+                                <a href="${media.facebook}" target="_blank" class="contact-item__link">Bilal Bendaoud</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <img src="/images/icons/instagram.svg" alt="Instagram" class="contact-item__icon">
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Instagram</h3>
+                                <a href="${media.instagram}" target="_blank" class="contact-item__link">@bilalbendaoud</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <img src="/images/icons/telegram.svg" alt="Telegram" class="contact-item__icon">
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Telegram</h3>
+                                <a href="${media.telegram}" target="_blank" class="contact-item__link">@BILAL_2XB</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <img src="/images/icons/whatsapp.svg" alt="WhatsApp" class="contact-item__icon">
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">WhatsApp</h3>
+                                <a href="${media.whatsapp}" target="_blank" class="contact-item__link">+213551243673</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <img src="/images/icons/viber.svg" alt="Viber" class="contact-item__icon">
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Viber</h3>
+                                <a href="${media.viber}" target="_blank" class="contact-item__link">+213551243673</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <img src="/images/icons/discord.svg" alt="Discord" class="contact-item__icon">
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Discord</h3>
+                                <span class="contact-item__text">w2xbw</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
                             <img src="/images/icons/location.svg" alt="Location" class="contact-item__icon">
                             <div class="contact-item__content">
                                 <h3 class="contact-item__title">Location</h3>

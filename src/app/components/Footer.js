@@ -20,7 +20,7 @@ export default (t) => {
                     <div class="footer__media">
                         <div class="footer__title">${t.media}</div>
                         <div class="footer__list">
-                            ${["github", "email"]
+                            ${["github", "facebook", "instagram", "telegram", "whatsapp", "viber", "discord", "email"]
                                 .map((name) => MediaIcon({ name }))
                                 .join("")}
                         </div>

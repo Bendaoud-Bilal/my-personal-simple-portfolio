@@ -8,6 +8,30 @@ const contacts = [
     {
         name: "github",
         text: media.githubRaw,
+    },
+    {
+        name: "facebook",
+        text: "Facebook",
+    },
+    {
+        name: "instagram",
+        text: "@bilalbendaoud",
+    },
+    {
+        name: "telegram",
+        text: media.telegramRaw,
+    },
+    {
+        name: "whatsapp",
+        text: "+213551243673",
+    },
+    {
+        name: "viber",
+        text: "+213551243673",
+    },
+    {
+        name: "discord",
+        text: media.discordRaw,
     }
 ];
 

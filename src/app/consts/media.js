@@ -1,9 +1,15 @@
 import proxy from "../proxies/media"
 
 const media = {
-    github: "bilalbendaoud",
+    github: "Bendaoud-Bilal",
     email: "bendaoudbilal717@gmail.com",
-    phone: "+213 0699779682",
+    facebook: "profile.php?id=61584334501766",
+    instagram: "bilalbendaoud",
+    telegram: "BILAL_2XB",
+    viber: "+213551243673",
+    whatsapp: "+213551243673",
+    discord: "w2xbw",
+    phone: "+213551243673",
     location: "Ouargla, Algeria / Bejaia, Algeria"
 }
 
