@@ -112,7 +112,7 @@ $screen: 768px
     padding:
         top: 32px
         bottom: 8px
-    background-color: var(--background)
+    background-color: transparent
     position: fixed
     top: 0
     width: 100%
@@ -121,19 +121,37 @@ $screen: 768px
     &__inner
         display: flex
         width: 100%
-
         justify-content: space-between
         align-items: center
         gap: 16px
         position: relative
 
+    // Split layout for home page
+    &--split &__inner
+        justify-content: flex-start
+        gap: 24px
+
+    &__spacer
+        flex: 1
+        display: none
+
+    &--split &__spacer
+        display: block
 
     &__links 
-        margin-left: auto
         display: flex
-        align-items: flex-start
-
+        align-items: center
         gap: 32px
+        margin-left: auto
+
+    &--split &__links
+        margin-left: 0
+
+        &--left
+            margin-left: 0
+
+        &--right
+            margin-right: 0
         
     
     &__link
@@ -154,7 +172,7 @@ $screen: 768px
     @media (max-width: $desktopScreen) 
         padding-top: 16px
 
-        &__links, .dropdown
+        &__links, .dropdown, &__spacer
             display: none
 
         

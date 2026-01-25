@@ -14,6 +14,9 @@ import "styles/pages/home.sass"
 
 export default (t, locale) => {
     return /*html*/`
+        <div class="blackhole-box">
+            <video autoplay loop muted playsinline src="/images/blackhole.mp4"></video>
+        </div>
         ${Hero(t.hero)}
         ${Quote(t.quote)}
         ${About(t.about)}

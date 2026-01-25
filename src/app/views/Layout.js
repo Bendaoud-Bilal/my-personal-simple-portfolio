@@ -6,7 +6,7 @@ export default async (content, path) => {
     const locale = await getLocale()
 
     return /*html*/ `
-        ${Header(locale.header)}
+        ${Header(locale.header, path.name)}
         <div class="container content">
             ${content(locale.pages[path.name], locale)}
         </div>

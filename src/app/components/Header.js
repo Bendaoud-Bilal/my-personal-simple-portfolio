@@ -1,11 +1,15 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
 
-const paths = ["/", "/projects", "/about-me", "/contacts"]
+const allPaths = ["/", "/projects", "/about-me", "/contacts"]
+const leftPaths = ["/", "/projects"]
+const rightPaths = ["/about-me", "/contacts"]
 
-export default (t) => {
+export default (t, pageName = "") => {
+    const isHomePage = pageName === "home";
+    
     return /*html*/ `
-        <header class="header">
+        <header class="header ${isHomePage ? 'header--split' : ''}">
             <input class="hamburger" type="checkbox" aria-label="Menu" />
 
             <div class="media-header">
@@ -25,8 +29,9 @@ export default (t) => {
                         <img class="logo__img" src="/images/logo.svg" alt="Bilal Bendaoud logo">
                         <span class="logo__name">Bilal</span>
                     </a>
-                    <div class="header__links">
-                        ${paths
+                    ${isHomePage ? `
+                    <div class="header__links header__links--left">
+                        ${leftPaths
                             .map(
                                 (path) => /*html*/ `
                                 <a href="${path}" class="header__link ${
@@ -38,6 +43,35 @@ export default (t) => {
                             )
                             .join("")}
                     </div>
+                    <div class="header__spacer"></div>
+                    <div class="header__links header__links--right">
+                        ${rightPaths
+                            .map(
+                                (path) => /*html*/ `
+                                <a href="${path}" class="header__link ${
+                                    window.location.pathname === path
+                                        ? "header__link_active"
+                                        : ""
+                                }">${t[routes[path].name]}</a>
+                            `
+                            )
+                            .join("")}
+                    </div>
+                    ` : `
+                    <div class="header__links">
+                        ${allPaths
+                            .map(
+                                (path) => /*html*/ `
+                                <a href="${path}" class="header__link ${
+                                    window.location.pathname === path
+                                        ? "header__link_active"
+                                        : ""
+                                }">${t[routes[path].name]}</a>
+                            `
+                            )
+                            .join("")}
+                    </div>
+                    `}
                     <div class="dropdown">
                         <span class="dropdown__label">en</span>
 

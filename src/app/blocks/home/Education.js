@@ -12,7 +12,6 @@ export default (t) => {
                             </div>
                             <div class="education__degree">${edu.degree}</div>
                             <div class="education__location">${edu.location}</div>
-                            <div class="education__grade">${edu.grade}</div>
                         </div>
                     `).join("")}
                 </div>
