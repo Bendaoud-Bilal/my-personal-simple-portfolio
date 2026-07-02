@@ -166,11 +166,6 @@
                         "name": "Formation aux Compétences du 21ème Siècle",
                         "issuer": "World Learning Algeria & HSBC",
                         "date": "01/05/2023"
-                    },
-                    {
-                        "name": "Bases des Services Électroniques",
-                        "issuer": "Albalasmeh Business Company LTD",
-                        "date": "25/07/2024"
                     }
                 ]
             },
@@ -204,7 +199,7 @@
                 "description": [
                     "Je suis étudiant en Master 1 Informatique spécialisé en Cybersécurité à l'École Supérieure en Sciences et Technologies de l'Informatique (ESTIN) à Bejaia, avec des études préalables à l'Université Kasdi Merbah de Ouargla.",
                     "J'ai effectué des stages chez Sonatrach, Enafor DZ, Algérie Télécom et SETRAM, construisant une solide expérience professionnelle.",
-                    "Certifié en SQL (DataCamp), FastAPI (CodeSignal), Compétences du 21ème Siècle (World Learning & HSBC) et Bases des Services Électroniques (Albalasmeh Business Company).",
+                    "Certifié en SQL (DataCamp), FastAPI (CodeSignal) et Compétences du 21ème Siècle (World Learning & HSBC).",
                     "Compétent en développement backend avec FastAPI et Django. J'ai développé et contribué à plusieurs projets dont une application desktop PyQt5, la plateforme web DZ-Tabib et le système Showcase Station."
                 ]
             },

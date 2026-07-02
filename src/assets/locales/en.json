@@ -166,11 +166,6 @@
                         "name": "21st Century Skills Training",
                         "issuer": "World Learning Algeria & HSBC",
                         "date": "01/05/2023"
-                    },
-                    {
-                        "name": "Basics of E-Services",
-                        "issuer": "Albalasmeh Business Company LTD",
-                        "date": "25/07/2024"
                     }
                 ]
             },
@@ -204,7 +199,7 @@
                 "description": [
                     "I'm a Masters 1 Computer Science student specialized in Cyber Security at the Higher School of Computer Science and Technology (ESTIN) in Bejaia, with prior studies at the University Kasdi Merbah of Ouargla.",
                     "I've completed internships at Sonatrach, Enafor DZ, Algérie Télécom and SETRAM, building a strong professional background.",
-                    "Certified in SQL (DataCamp), FastAPI (CodeSignal), 21st Century Skills (World Learning & HSBC) and Basics of E-Services (Albalasmeh Business Company).",
+                    "Certified in SQL (DataCamp), FastAPI (CodeSignal) and 21st Century Skills (World Learning & HSBC).",
                     "Skilled in backend development with FastAPI and Django. I've developed and contributed to several projects including a PyQt5 desktop app, the DZ-Tabib web platform, and the Showcase Station system."
                 ]
             },
